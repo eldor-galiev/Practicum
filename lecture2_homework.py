@@ -11,5 +11,5 @@ def print_matrix_modified(matrix):
         for index in range(column_number):
             row_str += str(row[index]).rjust(get_max_size_in_column(matrix,index)+1) + " "
         print(row_str)
-a = [[12121,1,141],[5,224444443,4],[12,232,2134]]
-print(print_matrix_modified(a))
+a = [[1111,22,333],[4,555,6],[777,8888,999]]
+print_matrix_modified(a)
